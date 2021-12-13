@@ -10,6 +10,8 @@ const createWindow = () => {
     width: 800,
     height: 600,
     icon: path.join(__dirname, 'icon/256x256.png'),
+    fullscreen: false,
+    autoHideMenuBar: true,
     webPreferences: {
         
         }
