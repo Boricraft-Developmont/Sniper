@@ -9,6 +9,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    icon: path.join(__dirname, 'icon/256x256.png'),
     webPreferences: {
         
         }
