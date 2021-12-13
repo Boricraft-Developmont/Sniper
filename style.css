@@ -1,7 +1,7 @@
 .camera{
-    display: block;
-    width: 50%;
-    height: 50%;
+    /* display: block; */
+    width: 100%;
+    z-index: -1;
 }
 
 #snap {
@@ -13,6 +13,9 @@
 	cursor:pointer;
 	padding:23px 23px;
 	text-decoration:none;
+    top: 75%;
+    left: 50%;
+    position: absolute;
 }
 
 #snap:hover {
@@ -23,4 +26,5 @@
 .snap:active {
 	position:relative;
 	top:1px;
+
 }
